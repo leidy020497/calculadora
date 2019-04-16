@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CALCULADORA</title>
+        <!-- me falta los meta -->
+        <script src="js/script.js"></script>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div id ="principal">
+            <header id="cabezado">
+                <h1>CALCULADORA</h1>
+            </header>
+            <section id="seccion">
+                <article id="articulo">
+
+                    <p>Esta calculadora que realiza operaciones b&aacute;sicas</p>
+                    
+                    Ingrese los n&uacute;meros a operar
+                </article>
+            <div id="general">    
+                <div id="cuadroGeneral">
+                    <div id="cuadroG">
+                        <input id="tablero"type="textfield">                    
+                    </div>
+                    <div id="fila1">
+                        <input class="tam" id="siete" type="button" value="7" onclick="llamar()">
+                        <input class="tam" id="ocho" type="button" value="8" onclick="llamar()">
+                        <input class="tam" id="nueve" type="button" value="9" onclick="llamar()">                        
+                        <input class="tam" id="divd" type="button" value="/" onclick="llamar()">
+                    </div>
+                    <div class="fila2">
+                            <input class="tam" id="cuatro" type="button" value="4" onclick="llamar()">
+                            <input class="tam" id="cinco" type="button" value="5" onclick="llamar()">
+                            <input class="tam" id="seis" type="button" value="6" onclick="llamar()">
+                            <input class="tam" id="mult" type="button" value="x" onclick="llamar()">
+                            
+                    </div>
+                    <div class="fila2">
+                            <input class="tam" id="uno" type="button" value="1" onclick="llamar()">
+                            <input class="tam" id="dos" type="button" value="2" onclick="llamar()">
+                            <input class="tam" id="tres" type="button" value="3" onclick="llamar()">
+                            <input class="tam" id="restar" type="button" value="-" onclick="llamar()">
+                            
+                    </div>
+                    <div class="fila2">
+                            <input class="tam" id="cero" type="button" value="0" onclick="llamar()">
+                            <input class="tam" id="borrar" type="button" value="C" onclick="llamar()">
+                            <input class="tam" id="sumar" type="button" value="+" onclick="llamar()">
+                            <input class="tam" id="igual" type="button" value="=" onclick="llamar()">
+                    </div>
+            </div>             
+                <div >
+                    <img src="imagen1.jpg" id="imagen" alt="">
+                </div>
+            </div>          
+            </section>
+            
+        </div>      
+    </body>
+</html>
